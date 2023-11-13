@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-export const TitleStyled = styled.h1`
-  color: red;
-`;
-
 export const Main = styled.main`
   display: flex;
   align-items: center;
@@ -21,6 +17,9 @@ export const SectionLeft = styled.section`
 
 export const SectionRight = styled.section`
   display: flex;
+  flex-direction: column;
   width: 50%;
   height: 100vh;
+  align-items: center;
+  justify-content: center;
 `;

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { Main, SectionLeft, SectionRight } from "./styles";
 import Banner from "./assets/images/banner.svg";
+import { Form } from "./components/Form/Form";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
         <SectionLeft>
           <img src={Banner} alt="Image with any user icons" />
         </SectionLeft>
-        <SectionRight></SectionRight>
+        <SectionRight>
+          <Form />
+        </SectionRight>
       </Main>
     </Fragment>
   );
