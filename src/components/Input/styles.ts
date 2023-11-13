@@ -38,6 +38,6 @@ export const InputCheckBoxStyled = styled.input``;
 export const LabelCheckBox = styled.label`
   font-family: "Lato";
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   color: #1a202c;
 `;
