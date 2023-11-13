@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const FormContainer = styled.form``;
+export const FormContainer = styled.form`
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
+`;
 
 export const TextContainer = styled.div`
   margin-bottom: 48px;

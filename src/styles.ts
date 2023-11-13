@@ -13,6 +13,9 @@ export const SectionLeft = styled.section`
   width: 50%;
   height: 100vh;
   background-color: #f7fafc;
+  @media (max-width: 1000px) {
+    display: none;
+  }
 `;
 
 export const SectionRight = styled.section`
@@ -22,4 +25,7 @@ export const SectionRight = styled.section`
   height: 100vh;
   align-items: center;
   justify-content: center;
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
