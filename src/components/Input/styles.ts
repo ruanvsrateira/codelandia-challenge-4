@@ -26,3 +26,18 @@ export const Label = styled.label`
   font-size: 16px;
   color: #1a202c;
 `;
+
+export const InputContainerCheckBox = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 4px;
+`;
+
+export const InputCheckBoxStyled = styled.input``;
+
+export const LabelCheckBox = styled.label`
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 14px;
+  color: #1a202c;
+`;
